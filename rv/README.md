@@ -1,4 +1,4 @@
-# Experiment Steps
+# Experimental Procedure
 
 ## 1. Steps to Set Cache Waymask
 
