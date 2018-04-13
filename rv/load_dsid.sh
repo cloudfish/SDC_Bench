@@ -7,5 +7,5 @@ mkdir /sys/fs/cgroup/dsid/test-1 /sys/fs/cgroup/dsid/test-2
 
 sleep 1
 # set the two groups' dsid 
-echo 1 > /sys/fs/cgroup/dsid/test-1/dsid-dsid.set
-echo 2 > /sys/fs/cgroup/dsid/test-2/dsid-dsid.set
+echo 1 > /sys/fs/cgroup/dsid/test-1/dsid.dsid-set
+echo 2 > /sys/fs/cgroup/dsid/test-2/dsid.dsid-set
