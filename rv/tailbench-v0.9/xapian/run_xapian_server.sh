@@ -25,4 +25,4 @@ do
     fi
 done
 
-ps -ef | grep -v "grep" | grep "xapian" | awk 'system("echo "$1" 1 1 > /proc/dsid")'
+ps -ef | grep -v "grep" | grep "xapian_networked_server" | awk 'system("echo "$1"  > /sys/fs/cgroup/dsid/test-1/tasks")'
