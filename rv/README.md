@@ -4,8 +4,9 @@
 
 - execute the script `load-dsid.sh`
 - `cd /sys/fs/cgroup/dsid`
-- separate PIDs into two groups : `echo PID > test-{1,2}/tasks`
-- set waymask by group path:  `echo waymask 0xfffe > test-{1,2}/dsid-dsid.cache`
+- separate programs into two groups through PID : `echo PID > test-{1,2}/tasks`
+- set the two groups' dsid : `echo {1,2} > test-{1,2}/dsid-dsid.set`
+- set the waymasks:  `echo waymask {waymask} > test-{1,2}/dsid-dsid.cache`
 
 
 ## 2. Steps to Configure The Token Bucket Algorithm
